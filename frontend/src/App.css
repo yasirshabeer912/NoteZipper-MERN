@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap");
+
+.TogglerIcon{
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+}
+.main {
+    min-height: 93vh;
+    align-items: center;
+    display: flex;
+    background-image: url('./assets/background1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    font-size: 90px;
+}
+
+.subtitle {
+    font-size: 25px;
+    padding-top: 10px;
+}
+.buttonContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .landingbutton {
+    width: 200px;
+    height: 55px;
+    align-items: center;
+  }
+
+@media only screen and (min-width: 1200px) {
+    .buttonContainer {
+        padding: 0 200px;
+    }
+
+    .title {
+        padding: 0 100px;
+    }
+}
+
+
+.mainback {
+  min-height: 93vh;
+  display: flex;
+  padding: 10px 0;
+}
+.page {
+  width: 100%;
+}
+.heading {
+  font-size: 60px;
+  /* font-family: "Ubuntu", sans-serif; */
+  font-family: "Work Sans", sans-serif;
+  padding: 5px 10px;
+}
+
+@media only screen and (min-width: 1200px) {
+}
+
+@media only screen and (max-width: 600px) {
+  .heading {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.accordion .card-header button {
+  border: none;
+  background: inherit;
+}
